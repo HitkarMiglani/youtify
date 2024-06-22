@@ -8,14 +8,14 @@ from youtube_search import YoutubeSearch
 import json
 # import cardupdate
 
-
-
 f = open('card.json', 'r')
 CONTAINER = json.load(f)
 
 def default(request):
     global CONTAINER
 
+
+    
 
     if request.method == 'POST':
 
